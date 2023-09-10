@@ -14,3 +14,4 @@ https://canvas.elte.hu/
 
 **Shell scripting** is simply taking all the commands you would type in to do something and putting them in a text file so you don't have to type them in every time. The shell executes the commands in the text file just like you had typed them in. As shells became more advanced, more complex programming became available in shell scripts, but it is still basically executing commands like you had typed them in.
 
+**PowerShell** is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS.
