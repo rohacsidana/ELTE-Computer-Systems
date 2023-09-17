@@ -1,6 +1,7 @@
 ### ELTE bejelentkezési adatok:
 
 szamrend.inf.elte.hu
+
 bejelentkezés/jelszó: INF domain azonosító/jelszó
 
 ---
