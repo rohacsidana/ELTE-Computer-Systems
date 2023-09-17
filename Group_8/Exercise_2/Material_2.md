@@ -19,7 +19,7 @@ Windows - A Microsoft lemezes operációs rendszere, az MS-DOS
 ### Shell, Shell script, PowerShell
 
 Shell - Unix alapú operációs rendszerek parancs gyűjteménye, amelyeket scripben foglalva egymás után futtathatunk le (.sh)
-később ezek bővítésre kerültek és megjelentek egyéb shellek mint pl. a zsh amit a Mac OS is átvett nem olyna régen.
+később ezek bővítésre kerültek és megjelentek egyéb shellek mint pl. a zsh amit a Mac OS is átvett nem olyan régen.
 
 PowerShell - egy többplatformos feladat automatizálási megoldás, amely egy parancssori shellből, egy szkript nyelvből és egy konfigurációkezelési keretrendszerből áll
 
