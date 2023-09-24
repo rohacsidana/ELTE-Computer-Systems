@@ -13,16 +13,16 @@ egyszerre futó - akár azonos – programpéldányok között különbséget tu
 egész szám, amely a gép bekapcsolásakor 1-ről indul és minden elindított feladat esetén
 eggyel növekszik.
 
-A legnagyobb PID limit érték lekérdezhető az alábbi paranccsal: cat /proc/sys/kernel/pid_max
+A legnagyobb PID limit érték lekérdezhető az alábbi paranccsal: ```cat /proc/sys/kernel/pid_max```
 
 ### Folyamatok kezelése / lekérdezése: 
 
 A futó folyamatokat a ```ps``` paranccsal kérhetjük le
 
-PID - a folyamat azonosítója 
-TTY - a vezérlõ terminál azonosítója, jelen esetben ez a ttyp0 
-STAT - a folyamat állapota
-TIME - a processz által eddig elhasznált processzor idő
+- PID - a folyamat azonosítója 
+- TTY - a vezérlõ terminál azonosítója, jelen esetben ez a ttyp0 
+- STAT - a folyamat állapota
+- TIME - a processz által eddig elhasznált processzor idő
 
 A rendszerben futó összes folyamatot, a legbővebb információkkal Linux alatt a ```ps -aux```
 opciókkal kérhetjük le. Ekkor a processzekről megtudjuk még tulajdonosukat, az időpontot
@@ -76,9 +76,9 @@ time ls
 
 ```
 
-real: The elapsed real time in seconds. -- Az eltelt valós idő másodpercekben.
-user: The amount of CPU time spent in user mode (executing the command) in seconds. -- A felhasználói módban (a parancs végrehajtásában) eltöltött CPU-idő másodpercben.
-sys: The amount of CPU time spent in system mode (kernel operations on behalf of the command) in seconds. -- A CPU rendszermódban eltöltött ideje (a parancs nevében végzett kernelműveletek) másodpercben.
+- real: The elapsed real time in seconds. -- Az eltelt valós idő másodpercekben.
+- user: The amount of CPU time spent in user mode (executing the command) in seconds. -- A felhasználói módban (a parancs végrehajtásában) eltöltött CPU-idő másodpercben.
+- sys: The amount of CPU time spent in system mode (kernel operations on behalf of the command) in seconds. -- A CPU rendszermódban eltöltött ideje (a parancs nevében végzett kernelműveletek) másodpercben.
 
 
 ```strace <parancsnév>``` parancs: Hibakereséshez használatos parancs. Az indított
@@ -240,6 +240,7 @@ sudo apt install mc
 - Megoldás: find laszlo -type d -not -path '*/.*'  | grep -v 'temp'
 
 (Itt én a saját felhasználóm mappáját írom ki, kicsi extrákkal szemléltetés miatt, itt listázzuk ki a mappákat, de ami .-al kezdődik, vagyis rejtett azt ne vegyük figyelembe)
+
 (Ezt követően, nekem a 'temp' mappában elég sok minden van, így azt ignorálom pipeline-al összekötve)
 
 3. Listázzuk ki a bejelentkezett felhasználók azonosítóját és csak azt!
@@ -248,14 +249,16 @@ sudo apt install mc
 
 4. Listázzuk ki egy tetszőleges szöveges fájl sorait abc sorba rendezve!
 
-- Megoldás: sort file.txt  vagy fordított módon sort -r file.txt
+- Megoldás: sort file.txt vagy fordított módon sort -r file.txt
 
 5. Cseréljük ki egy fájlban lévő karaktereket a nagybetűs párjukra!
 
 - Megoldás: tr '[:lower:]' '[:upper:]' < file.txt > output.txt
 
 (tr --> translate (or transform) characters from lowercase to uppercase)
+
 (< file.txt --> input redirection, a file.txt beolvasása történik meg)
+
 (> output.txt --> output redirection, mentsük el ebbe a fájlba a tr általá végrehajtott adatokat / textet)
 
 6. Számoljuk meg, hogy egy fájlban hány olyan sor van, amelyik az alma szót tartalmazza és semmi mást! 
