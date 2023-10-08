@@ -8,5 +8,5 @@
     - ```-d``` kapcsoló esetén a date parancs kerüljön futtatásra
     - ```-w``` kapcsoló irja ki a bejelentkezett felhasználó nevét
     - ```-l``` kapcsoló a felhaználó könyvtárának mappáját liszátta ki
-    - ha nem mmegfelelő kapcsolót adunk meg szövegesen tájákoztassuk a felhasznállót
-6. Meghatározzuk hogy egy adott hónapban melyik betegség volt a leggyakoribb, a patients.txt fájlból, az eredményt írjuk ki a terminálra.
+    - ha nem megfelelő kapcsolót adunk meg szövegesen tájákoztassuk a felhasznállót
+6. Határozzuk meg, hogy egy adott hónapban melyik betegség volt a leggyakoribb, a patients.txt fájlból, az eredményt írjuk ki a terminálra.
