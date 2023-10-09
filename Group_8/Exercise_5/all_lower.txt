@@ -1,5 +1,5 @@
-alma
-korte
-banan
-narancs
-fenyofa
+ALMA
+KORTE
+BANAN
+NARANCS
+FENYOFA
